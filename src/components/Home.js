@@ -22,8 +22,9 @@ const Home = (props) => {
 }
 const mapStateToProps = state => {
     //assigns the state.currentTime to the currentTime prop of Home component
+    debugger;
     return {
-        currentTime: state.time.currentTime
+        currentTime: state.currentTime.currentTime
     }
 }
 
